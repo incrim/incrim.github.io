@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link href="http://fonts.cdnfonts.com/css/signboard" rel="stylesheet">
+</head>
+
+
+    <title>$IN</title>
+    
+    
+    <body>
+        <input type="checkbox" id="click" checked/>
+        <label for="click">
+    <div id=target><a onclick="togglePlay()" id=warning class="toggle">Click Here.</a> <audio id="music" loop="loop" src="asd.mp3"></audio></div> 
+    </label>
+
+        <div id="screen">
+        <a class="grow"><strong>incriminate&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</strong></a> 
+        <a><strong>sharkboy&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</strong></a>
+        <a href="https://www.pornhub.com/view_video.php?viewkey=ph604fa610addfc" class="link"><strong>lyke&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</strong></a>
+    </div>
+ 
+
+    <video id="background-video" autoplay="" loop="" muted="">
+        <source src="ezgif-5-0c804c0c354.mp4" type="video/mp4">
+        </video>
+
+        <script>
+
+            var music = document.getElementById("music");
+            var isPlaying = false;
+            music.volume = 0.2;
+            function togglePlay() {
+              if (isPlaying) {
+                music.pause()
+              } else {
+                music.play();
+              }
+            };
+            music.onplaying = function() {
+              isPlaying = true;
+              document.getElementById("music-animation").classList.add('on')
+            };
+            music.onpause = function() {
+              isPlaying = false;
+              document.getElementById("music-animation").classList.remove('on')
+            };
+            
+            var button = document.getElementById("toggle");
+            button.addEventListener('click', function() {
+              if (button.getAttribute("data-text-swap") == button.innerHTML) {
+                button.innerHTML = button.getAttribute("data-text-original");
+              } else {
+                button.setAttribute("data-text-original", button.innerHTML);
+                button.innerHTML = button.getAttribute("data-text-swap");
+              }
+            }, false);
+
+
+            
+            </script>
+             <script src="audio.js"></script>
+</body>
+
+<div id="rawr"><h2>SiN</h2></div>
+
+<div id="xddd"><h5>Super Infamous Niggas</h5></div>
+      </html>

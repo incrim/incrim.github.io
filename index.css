@@ -1,0 +1,148 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin:0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    color: white;
+    font-family: signboard;
+    font-size: 30px;
+    cursor: default;
+    image-rendering: auto;
+    background-color: black;
+    z-index: 5;
+    position: relative;
+    }
+
+a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 500;
+    z-index: 1;
+    image-rendering: auto;
+    opacity: 0.5
+  }
+
+  #background-video {
+
+    display: block;
+    margin: 0px auto;
+}
+
+.grow {
+    
+}
+
+#enter{
+    top:0;
+    left:0;
+    z-index:3;
+    opacity:1;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+    position: fixed;
+    text-align:center;
+    background-color:#060707;
+    transition:opacity .5s
+}
+
+.begin{
+    top:50%;
+    left:50%;
+    color:#fff;
+    position:absolute;
+    font-weight: normal;
+    font-size: 20px;
+    transform:translate(-50%,-50%);font-family:"Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;  
+    background: lavender;
+    text-align: center;
+    font-family: signboard, sans-serif;
+    position: relative;
+  }
+  
+  input { 
+    display: none;
+  }
+  
+  #target { 
+    opacity: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;  
+    top: 0;
+    left: 0;
+    right: 100px;
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-transition: all 2s; /* Safari */
+    transition: all 2s;
+    text-align: center;
+  }
+  
+  #click:checked ~ label > #target {
+    opacity: 1;
+    z-index: 200;
+    cursor: pointer;  
+    pointer-events: auto;
+    text-align: center;
+  }
+  
+  
+  #warning {
+    color: white;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    left: 900px;
+    }
+
+    #toggle{
+        cursor: pointer;
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+    }
+
+    #rawr{
+      margin: 680 auto;
+    }
+
+    #xddd{
+      margin:  auto;
+      position: fixed;
+      bottom: 0px;
+      left: 810px;
+      text-align: center;
+    }
+
+    strong{
+      position: sticky;
+    }
